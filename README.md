@@ -7,7 +7,7 @@ This repository contains my solutions for Data Structures and Algorithms (DSA) p
 This repository is structured based on problem categories and difficulty levels. You can navigate through folders to find the corresponding problem solutions.
 
 ## 📁 Folder Structure
-
+<p><img src"" /><p/>
 ```plaintext
 ├── Arrays
 │   ├── easy
