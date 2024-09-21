@@ -7,7 +7,7 @@ This repository contains my solutions for Data Structures and Algorithms (DSA) p
 This repository is structured based on problem categories and difficulty levels. You can navigate through folders to find the corresponding problem solutions.
 
 ## 📁 Folder Structure
-<p><img src"" /><p/>
+<p><img src"https://github.com/ashish8513/Leetcode-dsa/blob/main/vs%20code.png" width="500" /><p/>
 ```plaintext
 ├── Arrays
 │   ├── easy
