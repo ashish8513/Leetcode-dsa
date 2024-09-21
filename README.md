@@ -1,6 +1,6 @@
 # LeetCode DSA Solutions
 
-This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/). Each solution includes detailed explanations and optimized approaches using various languages such as JavaScript, Python, and C++.
+This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/). Each solution includes detailed explanations and optimized approaches using JavaScript.
 
 ## 🚀 Getting Started
 
