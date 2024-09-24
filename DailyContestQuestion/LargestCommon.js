@@ -7,15 +7,15 @@
 function longestCommonPrefix(arr1, arr2) {
     let maxPrefixLength = 0;
     for (let x of arr1) {
-      for (let y of arr2) {
-        let i = 0;
-        let j = 0;
-        while (i < x.toString().length && j < y.toString().length && x.toString()[i] === y.toString()[j]) {
-          i++;
-          j++;
-          maxPrefixLength = Math.max(maxPrefixLength, i);
+        for (let y of arr2) {
+            let i = 0;
+            let j = 0;
+            while (i < x.toString().length && j < y.toString().length && x.toString()[i] === y.toString()[j]) {
+                i++;
+                j++;
+                maxPrefixLength = Math.max(maxPrefixLength, i);
+            }
         }
-      }
     }
     return maxPrefixLength;
-  }
+}
