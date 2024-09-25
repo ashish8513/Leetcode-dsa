@@ -9,6 +9,7 @@ This repository is structured based on problem categories and difficulty levels.
    
 ## 📁 Folder Structure
 ![Second loading Page](https://github.com/ashish8513/Leetcode-dsa/blob/main/vs%20code.png)
+
 ```plaintext
 ├── Arrays
 │   ├── easy
