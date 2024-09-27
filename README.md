@@ -28,7 +28,7 @@ This repository is structured based on problem categories and difficulty levels.
 
 ````
 🛠 Tools & Languages
-JavaScript: For most of the frontend and algorithmic challenges.
+JavaScript: For most of the frontend and algorithmic challenges
 
 💡 How to Contribute in Github
 Feel free to fork this repository, raise issues, or create pull requests to contribute more solutions or optimizations.
