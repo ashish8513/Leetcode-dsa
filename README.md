@@ -28,7 +28,7 @@ This repository is structured based on problem categories and difficulty levels.
 
 ````
 <p align="center">
-   <img  src=""/>
+   <img  src="https://github.com/ashish8513/Leetcode-dsa/blob/main/daily.png" alt="screen_image"/>
 </p>
 🛠 Tools & Languages
 JavaScript: For most of the frontend and algorithmic challenges
