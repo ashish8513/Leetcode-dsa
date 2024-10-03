@@ -27,6 +27,9 @@ This repository is structured based on problem categories and difficulty levels.
 │       └── copy-random-pointer.cpp
 
 ````
+<p align="center" >
+   <img  src="https://github.com/ashish8513/Leetcode-dsa/blob/main/daily.png" width="600" alt="screen_image"/>
+</p>
 🛠 Tools & Languages
 JavaScript: For most of the frontend and algorithmic challenges
 
