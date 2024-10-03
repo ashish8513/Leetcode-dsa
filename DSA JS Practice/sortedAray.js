@@ -22,6 +22,5 @@ var removeDuplicates = function(nums) {
             k++; 
         }
     }
-    
     return k;
 };
