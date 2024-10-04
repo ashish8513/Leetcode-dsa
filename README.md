@@ -24,7 +24,7 @@ This repository is structured based on problem categories and difficulty levels.
 │   ├── medium
 │   │   └── merge-two-lists.py
 │   └── hard
-│       └── copy-random-pointer.cpp
+│       └── copy-random-pointer.js
 
 ````
 <p align="center" >
