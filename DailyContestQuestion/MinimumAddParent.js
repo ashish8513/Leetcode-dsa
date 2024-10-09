@@ -12,7 +12,10 @@
 
 // For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))".
 // Return the minimum number of moves required to make s valid.
-
+/**
+ * @param {string} s
+ * @return {number}
+ */
 function minAddToMakeValid(s) {
     const stk = [];
     for (const c of s) {
