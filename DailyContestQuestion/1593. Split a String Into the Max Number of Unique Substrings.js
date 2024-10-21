@@ -17,7 +17,7 @@ var maxUniqueSplit = function(s) {
             if (!seen.has(currentSubstring)) {
                 seen.add(currentSubstring);
                 backtrack(i + 1, seen);
-                seen.delete(currentSubstring); // backtrack step
+                seen.delete(currentSubstring);
             }
         }
     };
@@ -26,6 +26,4 @@ var maxUniqueSplit = function(s) {
     return maxCount;
 };
 
-// Example usage:
-console.log(maxUniqueSplit("ababccc")); // Output: 5
- 
+console.log(maxUniqueSplit("ababccc")); 
