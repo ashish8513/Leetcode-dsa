@@ -27,3 +27,5 @@ const flipped = flipEquiv(root1.left, root2.right) && flipEquiv(root1.right, roo
 
 return regular || flipped;
 };
+
+
