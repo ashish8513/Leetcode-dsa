@@ -43,7 +43,7 @@ JavaScript: For most of the frontend and algorithmic challenges
 
 RIGHT TO SAY 
 <p align="center" >
-   <img  src="" width="600" alt="screen_image"/>
+   <img  src="https://github.com/ashish8513/Leetcode-dsa/blob/main/Screenshot%20(13).png" width="600" alt="screen_image"/>
 </p>
 
 💡 How to Contribute in Github
