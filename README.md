@@ -41,6 +41,11 @@ I hope you will find this helpful !
 🛠 Tools & Languages
 JavaScript: For most of the frontend and algorithmic challenges
 
+RIGHT TO SAY 
+<p align="center" >
+   <img  src="https://github.com/ashish8513/Leetcode-dsa/blob/main/Screenshot%20(13).png"  alt="screen_image"/>
+</p>
+
 💡 How to Contribute in Github
 Feel free to fork this repository, raise issues, or create pull requests to contribute more solutions or optimizations.
 
