@@ -2,7 +2,7 @@
 
 This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/u/ashish8513/). Each solution includes detailed explanations and optimized approaches using JavaScript.
 
-![Second loading Page](https://github.com/ashish8513/Leetcode-dsa/blob/main/days.png)
+[50 days](https://github.com/ashish8513/Leetcode-dsa/blob/main/days.png)
 
 ## 🚀 Getting Started
 
