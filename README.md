@@ -2,6 +2,8 @@
 
 This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/u/ashish8513/). Each solution includes detailed explanations and optimized approaches using JavaScript.
 
+![Second loading Page]()
+
 ## 🚀 Getting Started
 
 This repository is structured based on problem categories and difficulty levels. You can navigate through folders to find the corresponding problem solutions.
