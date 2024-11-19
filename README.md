@@ -37,7 +37,7 @@ JavaScript: For most of the frontend and algorithmic challenges
 Feel free to fork this repository, raise issues, or create pull requests to contribute more solutions or optimizations
 , 
 📫 Contact
-For any questions or discussions, feel free to reach out :
+For any questions or discussions, feel free to reach out 
 ## Don't forget to show your love this repository.
 Email: ashishprabhakar1010@gmail.com
 
