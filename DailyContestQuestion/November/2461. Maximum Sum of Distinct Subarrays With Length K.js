@@ -13,7 +13,7 @@
  */
 var maximumSubarraySum = function(nums, k) {
     const n = nums.length;
-    if (n < k) return 0; // If the length of nums is less than k, return 0
+    if (n < k) return 0; 
 
     let maxSum = 0;
     let currentSum = 0;
@@ -23,24 +23,21 @@ var maximumSubarraySum = function(nums, k) {
 
     for (let right = 0; right < n; right++) {
         if (count[nums[right]] === 0) {
-            distinctCount++; // New distinct element
+            distinctCount++; 
         }
         count[nums[right]]++;
         currentSum += nums[right];
 
-        // When the window size exceeds k, shrink from the left
         if (right >= k) {
             count[nums[left]]--;
             if (count[nums[left]] === 0) {
-                distinctCount--; // One less distinct element
+                distinctCount--; 
             }
             currentSum -= nums[left];
             left++;
         }
 
-        // If we have a valid window of size k
         if (right >= k - 1) {
-            // Check if all elements are distinct
             if (distinctCount === k) {
                 maxSum = Math.max(maxSum, currentSum);
             }
