@@ -1,4 +1,4 @@
-# LeetCode DSA Solutions
+## LeetCode DSA Solutions
 
 This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/u/ashish8513/). Each solution includes detailed explanations and optimized approaches using JavaScript.. 
 
