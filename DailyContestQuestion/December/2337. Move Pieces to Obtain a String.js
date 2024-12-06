@@ -4,11 +4,12 @@
 // The character '_' represents a blank space that can be occupied by any of the 'L' or 'R' pieces.
 // Return true if it is possible to obtain the string target by moving the pieces of the string start any number of times. Otherwise, return false.
 
- /**
+/**
  * @param {string} start
  * @param {string} target
  * @return {boolean}
  */
+
 var canChange = function (start, target) {
     let x = 0, y = 0;
 
