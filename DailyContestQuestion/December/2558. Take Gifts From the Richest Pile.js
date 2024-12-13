@@ -13,7 +13,6 @@
  */
 const pickGifts = (gifts, k) => {
 
-
     for(let i = 0; i < k; i++){
         gifts.sort((a,b) => a - b)
         let newEl = Math.floor(Math.sqrt(gifts.pop()))
