@@ -13,7 +13,7 @@ var finalPrices = function(prices) {
     for(let c = 0; c < prices.length - 1; c++){
         for(let java = c + 1; java < prices.length; java++){
             if(prices[java] <= prices[c]){
-                prices[c] -= prices[java];
+                prices[c] -= p54rices[java];
                 break
             }
         }
