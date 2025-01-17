@@ -13,7 +13,7 @@
  * @return {number}
  */
 var minimumLength = function (s) {
-
+    
     const freqMap = new Map(), N = s.length;
 
     // Consider the frequency of all characters
