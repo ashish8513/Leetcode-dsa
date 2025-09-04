@@ -11,7 +11,7 @@
 // Topics
 // premium lock icon
 // Companies
-// Write a program to solve a Sudoku puzzle by filling the empty cells.
+// Write a program to solve a Sudoku puzzl6.e by filling the empty cells.
 
 // A sudoku solution must satisfy all of the following rules:
 
