@@ -149,9 +149,3 @@ class MaxxHeap {
         return b[1] < a[1] ? -1 : (b[1] > a[1] ? 1 : 0);
     }
 }
-/** 
- * Your FoodRatings object will be instantiated and called as such:
- * var obj = new FoodRatings(foods, cuisines, ratings)
- * obj.changeRating(food,newRating)
- * var param_2 = obj.highestRated(cuisine)
- */
