@@ -5,7 +5,6 @@
 // The given account number(s) are between 1 and n, and
 // The amount of money withdrawn or transferred from is less than or equal to the balance of the account.
 // Implement the Bank class:
-
 // Bank(long[] balance) Initializes the object with the 0-indexed integer array balance.
 // boolean transfer(int account1, int account2, long money) Transfers money dollars from the account numbered account1 to the account numbered account2. Return true if the transaction was successful, false otherwise.
 // boolean deposit(int account, long money) Deposit money dollars into the account numbered account. Return true if the transaction was successful, false otherwise.
