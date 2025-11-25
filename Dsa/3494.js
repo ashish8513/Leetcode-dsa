@@ -35,3 +35,4 @@ var minTime = function(skill, mana) {
 
     return freeTime[n - 1];
 };
+// 
