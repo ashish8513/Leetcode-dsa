@@ -12,7 +12,7 @@ This repository is structured based on problem categories and difficulty levels.
 It consists the solutions of both easy as well as medium level javascript questions.
 I hope you will find this helpful !l
 
-# How to contribute?
+# How to contribute
 
   1. Fork the repository
   2. Do the desired changes (add/delete/modify)
