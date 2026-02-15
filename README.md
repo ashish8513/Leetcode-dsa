@@ -1,6 +1,6 @@
 ## LeetCode DSA Solutions
 
-This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/u/ashish8513/). Each solution includes detailed explanations and optimized approaches using JavaScript...
+This repository contains my solutions for Data Structures and Algorithms (DSA) problems on [LeetCode](https://leetcode.com/u/ashish8513/). Each solution includes detailed explanations and optimized approaches using JavaScript..
 
 <p align="center" >
    <img  src="https://github.com/ashish8513/Leetcode-dsa/blob/main/days.png" width="200" alt="screen_image"/>
