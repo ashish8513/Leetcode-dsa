@@ -1,0 +1,31 @@
+// You are given an m x n integer matrix mat and an integer k. The matrix rows are 0-indexed.
+
+// The following proccess happens k times:
+
+// Even-indexed rows (0, 2, 4, ...) are cyclically shifted to the left.
+
+class Solution {
+public:
+    bool areSimilar(vector<vector<int>>& mat, int k) {
+        int m = mat.size();
+        int n = mat[0].size();
+
+        k %= n; 
+        
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i % 2 == 0) {
+                    if (mat[i][j] != mat[i][(j + k) % n]) {
+                        return false;
+                    }
+                } else {
+                    if (mat[i][j] != mat[i][(j - k + n) % n]) {
+                        return false;
+                    }
+                }
+            }
+        }
+        
+        return true;
+    }
+};
