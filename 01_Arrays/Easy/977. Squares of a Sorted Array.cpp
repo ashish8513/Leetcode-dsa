@@ -8,7 +8,6 @@ class Solution
 public:
     vector<int> sortedSquares(vector<int> &a)
     {
-
         int size = a.size();
 
         vector<int> neg;
