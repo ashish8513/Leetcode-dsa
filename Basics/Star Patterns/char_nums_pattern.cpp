@@ -3,15 +3,15 @@ using namespace std;
 int main()
 {
     int n = 3;
-    int num = 1;
+    char ch = 'A';
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= n; j++)
         {
-            cout << num << " J";
-            num++;
+            cout << ch << " ";
+            ch++;
         }
         cout << endl;
     }
-    cout << "after pattern: " << num << endl;
+    return 0;
 }

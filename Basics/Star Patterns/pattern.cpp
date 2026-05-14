@@ -3,17 +3,17 @@ using namespace std;
 int main()
 {
     int num = 6;
-    for (int i = 3; i >= 1; i--)
+    for (int i = 3; i >= 1; i--) // outer
     {
         // spaces
         for (int s = 3; s > i; s--)
         {
-            cout << "-";
+            cout << "-" << " ";
         }
         // number
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= i; j++) // innner
         {
-            cout << num << "";
+            cout << num << " ";
             num--;
         }
         cout << endl;
