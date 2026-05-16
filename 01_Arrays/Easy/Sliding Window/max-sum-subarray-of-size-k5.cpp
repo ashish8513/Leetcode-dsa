@@ -15,6 +15,7 @@
 // Explanation: arr3 = 400, which is maximum.
 #include <iostream>
 #include <vector>
+#include <climits>
 using namespace std;
 class Solution
 {
@@ -45,3 +46,18 @@ public:
         return maxSum;
     }
 };
+
+int main()
+{
+    Solution sol;
+    vector<int> arr1 = {100, 200, 300, 400};
+    cout << sol.maxSubarraySum(arr1, 2) << endl; // Output: 700
+    
+    vector<int> arr2 = {1, 4, 2, 10, 23, 3, 1, 0, 20};
+    cout << sol.maxSubarraySum(arr2, 4) << endl; // Output: 39
+    
+    vector<int> arr3 = {100, 200, 300, 400};
+    cout << sol.maxSubarraySum(arr3, 1) << endl; // Output: 400
+    
+    return 0;
+}
