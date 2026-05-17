@@ -14,4 +14,4 @@ int main()
         cout << "The string is not a palindrome.";
 
     return 0;
-}
+}   
