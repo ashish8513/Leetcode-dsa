@@ -18,7 +18,7 @@ struct ListNode {
 // Output:
 // 1 -> 2 -> 3
 #include <iostream>
-#include <bits/stdc++.h>
+#include <climits>
 
 using namespace std;
 class Solution
