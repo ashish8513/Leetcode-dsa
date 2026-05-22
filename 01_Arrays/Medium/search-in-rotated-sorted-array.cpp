@@ -5,7 +5,9 @@
 // Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
 
 // You must write an algorithm with O(log n) runtime complexity.
-
+#include <iostream>
+#include <vector>
+using namespace std;
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
