@@ -4,6 +4,9 @@
 // At each turn, a player can pick a coin from either the beginning or the end of the array. Both players follow a greedy strategy, i.e., they always pick the coin with the maximum value among the two available ends.
 // The game continues until only one coin remains.
 // Find the value of the last remaining coin.
+#include <iostream>
+#include <vector>
+using namespace std;
 
 class Solution {
   public:
