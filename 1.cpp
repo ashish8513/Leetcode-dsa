@@ -14,8 +14,6 @@ int main(){
         // cout<<l<<" "<<a<<" "<<b<<endl;
         int k = l;
         
-
-    
         int ans  =0;
         while(k--){
 
