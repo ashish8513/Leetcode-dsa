@@ -6,7 +6,7 @@
 
 // The total value is the sum of the values of all chosen subarrays.
 
-// Return the maximum possible total value you can achieve.
+// Return the maximum possible total value you can achieve.  
 #include <iostream>
 #include <algorithm>
 #include <vector>
