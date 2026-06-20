@@ -4,7 +4,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
- class Solution {
+class Solution {
 public:
     double angleClock(int hour, int minutes) {
 
@@ -16,4 +16,4 @@ public:
 
         return min(angle, 360.0 - angle);
     }
-}; 
+};
