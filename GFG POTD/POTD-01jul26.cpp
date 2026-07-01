@@ -10,18 +10,27 @@ public:
     int maxSumSubarray(vector<int>& arr) {
         int n = arr.size();
 
-        int noSkip = arr[0];
-        int oneSkip = INT_MIN;
+        if (n == 1)
+            return arr[0];
+
+        vector<int> fw(n), bw(n);
+
+        fw[0] = arr[0];
         int ans = arr[0];
 
         for (int i = 1; i < n; i++) {
-            int prevNoSkip = noSkip;
+            fw[i] = max(arr[i], fw[i - 1] + arr[i]);
+            ans = max(ans, fw[i]);
+        }
 
-            noSkip = max(noSkip + arr[i], arr[i]);
+        bw[n - 1] = arr[n - 1];
 
-            oneSkip = max(prevNoSkip, oneSkip + arr[i]);
+        for (int i = n - 2; i >= 0; i--) {
+            bw[i] = max(arr[i], bw[i + 1] + arr[i]);
+        }
 
-            ans = max(ans, max(noSkip, oneSkip));
+        for (int i = 1; i < n - 1; i++) {
+            ans = max(ans, fw[i - 1] + bw[i + 1]);
         }
 
         return ans;
