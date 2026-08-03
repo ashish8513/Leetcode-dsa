@@ -35,4 +35,4 @@ Each solution includes:
 - **Approach** - Strategy & algorithm
 - **Complexity** - Time & Space analysis
 - **Patterns** - Key techniques used
-- **Notes** - Edge cases & optimization
+- **Notes** - Edge cases & optimizations
